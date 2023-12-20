@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-novyjj-proekt-2-финансисты-e",
+  "editForm": "i-i-s-novyjj-proekt-2-финансисты-e",
+  "external": false,
+  "caption": "Финансисты",
+  "name": "IISNovyjj_proekt_2ФинансистыL",
+  "className": "ФинансистыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-novyjj-proekt-2-финансисты",
+      "modelProjection": "ФинансистыL"
+    }
+  ]
+}

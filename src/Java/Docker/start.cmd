@@ -1,0 +1,1 @@
+docker-compose -p novyjj_proekt_2-java up -d

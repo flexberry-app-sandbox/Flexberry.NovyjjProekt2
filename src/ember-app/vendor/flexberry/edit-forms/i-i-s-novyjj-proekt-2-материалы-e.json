@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Материалы",
+  "name": "IISNovyjj_proekt_2МатериалыE",
+  "className": "МатериалыE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-novyjj-proekt-2-материалы",
+      "modelProjection": "МатериалыE"
+    }
+  ]
+}

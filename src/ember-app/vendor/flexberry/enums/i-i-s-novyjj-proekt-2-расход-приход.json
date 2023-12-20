@@ -1,0 +1,8 @@
+﻿{
+  "nameSpace": "IIS.Novyjj_proekt_2",
+  "className": "РасходПриход",
+  "enumObjects": {
+    "Приход": "Приход",
+    "Расход": "Расход"
+  }
+}

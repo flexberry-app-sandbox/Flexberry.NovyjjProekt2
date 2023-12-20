@@ -1,0 +1,77 @@
+﻿{
+  "name": "IISNovyjj_proekt_2ПереченьУслуг",
+  "modelName": "i-i-s-novyjj-proekt-2-перечень-услуг",
+  "className": "ПереченьУслуг",
+  "nameSpace": "IIS.Novyjj_proekt_2",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "количество",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "услуги",
+      "relatedTo": "i-i-s-novyjj-proekt-2-услуги",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "приходДенег",
+      "relatedTo": "i-i-s-novyjj-proekt-2-приход-денег",
+      "inverse": "переченьУслуг"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ПереченьУслугE",
+      "modelName": "i-i-s-novyjj-proekt-2-перечень-услуг",
+      "attrs": [
+        {
+          "name": "количество",
+          "caption": "Количество",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Наименование",
+          "lookupValueField": "наименование",
+          "relationName": "Услуги",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Наименование",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Услуги",
+          "name": "услуги",
+          "relatedTo": "i-i-s-novyjj-proekt-2-услуги",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

@@ -1,0 +1,78 @@
+﻿{
+  "applicationCaption": "Novyjj_proekt_2",
+  "applicationTitle": "Novyjj_proekt_2",
+  "items": [
+    {
+      "link": null,
+      "menuName": "novyjj-proekt-2",
+      "caption": "Novyjj_proekt_2",
+      "title": "Novyjj_proekt_2",
+      "children": [
+        {
+          "link": "i-i-s-novyjj-proekt-2-поставщики-l",
+          "menuName": null,
+          "caption": "Поставщики",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-novyjj-proekt-2-материалы-l",
+          "menuName": null,
+          "caption": "Материалы",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-novyjj-proekt-2-клиенты-l",
+          "menuName": null,
+          "caption": "Клиенты",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-novyjj-proekt-2-финансисты-l",
+          "menuName": null,
+          "caption": "Финансисты",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-novyjj-proekt-2-товары-l",
+          "menuName": null,
+          "caption": "Товары",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-novyjj-proekt-2-регистр-оборот-l",
+          "menuName": null,
+          "caption": "Регистр оборот",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-novyjj-proekt-2-приход-денег-l",
+          "menuName": null,
+          "caption": "Приход денег",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-novyjj-proekt-2-расход-денег-l",
+          "menuName": null,
+          "caption": "Расход денег",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-novyjj-proekt-2-услуги-l",
+          "menuName": null,
+          "caption": "Услуги",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

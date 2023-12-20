@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-novyjj-proekt-2-товары-e",
+  "editForm": "i-i-s-novyjj-proekt-2-товары-e",
+  "external": false,
+  "caption": "Товары",
+  "name": "IISNovyjj_proekt_2ТоварыL",
+  "className": "ТоварыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-novyjj-proekt-2-товары",
+      "modelProjection": "ТоварыL"
+    }
+  ]
+}

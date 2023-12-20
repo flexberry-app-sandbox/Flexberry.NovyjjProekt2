@@ -1,0 +1,77 @@
+﻿{
+  "name": "IISNovyjj_proekt_2ПереченьМат",
+  "modelName": "i-i-s-novyjj-proekt-2-перечень-мат",
+  "className": "ПереченьМат",
+  "nameSpace": "IIS.Novyjj_proekt_2",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "количество",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "материалы",
+      "relatedTo": "i-i-s-novyjj-proekt-2-материалы",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "расходДенег",
+      "relatedTo": "i-i-s-novyjj-proekt-2-расход-денег",
+      "inverse": "переченьМат"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ПереченьМатE",
+      "modelName": "i-i-s-novyjj-proekt-2-перечень-мат",
+      "attrs": [
+        {
+          "name": "количество",
+          "caption": "Количество",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Наименование",
+          "lookupValueField": "наименование",
+          "relationName": "Материалы",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Наименование",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Материалы",
+          "name": "материалы",
+          "relatedTo": "i-i-s-novyjj-proekt-2-материалы",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

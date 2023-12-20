@@ -1,0 +1,138 @@
+﻿{
+  "name": "IISNovyjj_proekt_2РегистрОборот",
+  "modelName": "i-i-s-novyjj-proekt-2-регистр-оборот",
+  "className": "РегистрОборот",
+  "nameSpace": "IIS.Novyjj_proekt_2",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "iD",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "дата",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "расходПриход",
+      "type": "i-i-s-novyjj-proekt-2-расход-приход",
+      "flexberryType": "РасходПриход",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "сумма",
+      "type": "decimal",
+      "flexberryType": "double",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "тип",
+      "type": "i-i-s-novyjj-proekt-2-тип",
+      "flexberryType": "Тип",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "РегистрОборотE",
+      "modelName": "i-i-s-novyjj-proekt-2-регистр-оборот",
+      "attrs": [
+        {
+          "name": "iD",
+          "caption": "ID",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "расходПриход",
+          "caption": "Расход приход",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "тип",
+          "caption": "Тип",
+          "hidden": false,
+          "index": 3
+        },
+        {
+          "name": "сумма",
+          "caption": "Сумма",
+          "hidden": false,
+          "index": 4
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "РегистрОборотL",
+      "modelName": "i-i-s-novyjj-proekt-2-регистр-оборот",
+      "attrs": [
+        {
+          "name": "iD",
+          "caption": "ID",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "расходПриход",
+          "caption": "Расход приход",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "тип",
+          "caption": "Тип",
+          "hidden": false,
+          "index": 3
+        },
+        {
+          "name": "сумма",
+          "caption": "Сумма",
+          "hidden": false,
+          "index": 4
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

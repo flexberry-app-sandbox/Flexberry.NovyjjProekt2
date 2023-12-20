@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": "материалы",
+      "displayAttributeName": "наименование",
+      "required": true,
+      "relationName": "СоставТовара.Материалы",
+      "projection": "МатериалыL",
+      "detailModelName": "i-i-s-novyjj-proekt-2-состав-товара"
+    }
+  ],
+  "external": false,
+  "caption": "Товары",
+  "name": "IISNovyjj_proekt_2ТоварыE",
+  "className": "ТоварыE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-novyjj-proekt-2-товары",
+      "modelProjection": "ТоварыE"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Финансисты",
+      "projection": "ФинансистыL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Клиенты",
+      "projection": "КлиентыL",
+      "detailModelName": null
+    },
+    {
+      "master": "товары",
+      "displayAttributeName": "наименование",
+      "required": true,
+      "relationName": "ПереченьТоваров.Товары",
+      "projection": "ТоварыL",
+      "detailModelName": "i-i-s-novyjj-proekt-2-перечень-товаров"
+    },
+    {
+      "master": "услуги",
+      "displayAttributeName": "наименование",
+      "required": true,
+      "relationName": "ПереченьУслуг.Услуги",
+      "projection": "УслугиL",
+      "detailModelName": "i-i-s-novyjj-proekt-2-перечень-услуг"
+    }
+  ],
+  "external": false,
+  "caption": "Приход денег",
+  "name": "IISNovyjj_proekt_2ПриходДенегE",
+  "className": "ПриходДенегE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-novyjj-proekt-2-приход-денег",
+      "modelProjection": "ПриходДенегE"
+    }
+  ]
+}

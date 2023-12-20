@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+	xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistencehttp://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="Olingo4PG">
+        <class>Novyjj_proekt_2.model.Postavshhiki</class>
+        <class>Novyjj_proekt_2.model.Materialy</class>
+        <class>Novyjj_proekt_2.model.Klienty</class>
+        <class>Novyjj_proekt_2.model.PerechenTovarov</class>
+        <class>Novyjj_proekt_2.model.Finansisty</class>
+        <class>Novyjj_proekt_2.model.Tovary</class>
+        <class>Novyjj_proekt_2.model.SostavTovara</class>
+        <class>Novyjj_proekt_2.model.RegistrOborot</class>
+        <class>Novyjj_proekt_2.model.PrixodDeneg</class>
+        <class>Novyjj_proekt_2.model.PerechenUslug</class>
+        <class>Novyjj_proekt_2.model.RasxodDeneg</class>
+        <class>Novyjj_proekt_2.model.PerechenMat</class>
+        <class>Novyjj_proekt_2.model.Uslugi</class>
+        <class>Novyjj_proekt_2.model.FlexberryAdvLimit</class>
+        <class>Novyjj_proekt_2.model.NewPlatformFlexberryFlexberryUserSetting</class>
+        <class>Novyjj_proekt_2.model.NewPlatformFlexberryServicesLock</class>
+        <class>Novyjj_proekt_2.model.IISCaseberryLoggingObjectsApplicationLog</class>
+
+    </persistence-unit>
+</persistence>

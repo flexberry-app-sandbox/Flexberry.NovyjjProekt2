@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-novyjj-proekt-2-регистр-оборот-e",
+  "editForm": "i-i-s-novyjj-proekt-2-регистр-оборот-e",
+  "external": false,
+  "caption": "Регистр оборот",
+  "name": "IISNovyjj_proekt_2РегистрОборотL",
+  "className": "РегистрОборотL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-novyjj-proekt-2-регистр-оборот",
+      "modelProjection": "РегистрОборотL"
+    }
+  ]
+}

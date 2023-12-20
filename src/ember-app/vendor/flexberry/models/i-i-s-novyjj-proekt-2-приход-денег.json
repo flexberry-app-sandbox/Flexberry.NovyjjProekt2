@@ -1,0 +1,265 @@
+﻿{
+  "name": "IISNovyjj_proekt_2ПриходДенег",
+  "modelName": "i-i-s-novyjj-proekt-2-приход-денег",
+  "className": "ПриходДенег",
+  "nameSpace": "IIS.Novyjj_proekt_2",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "iD",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "дата",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "расходПриход",
+      "type": "i-i-s-novyjj-proekt-2-расход-приход",
+      "flexberryType": "РасходПриход",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "сумма",
+      "type": "decimal",
+      "flexberryType": "double",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "тип",
+      "type": "i-i-s-novyjj-proekt-2-тип",
+      "flexberryType": "Тип",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "клиенты",
+      "relatedTo": "i-i-s-novyjj-proekt-2-клиенты",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "финансисты",
+      "relatedTo": "i-i-s-novyjj-proekt-2-финансисты",
+      "inverse": null
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "переченьТоваров",
+      "relatedTo": "i-i-s-novyjj-proekt-2-перечень-товаров",
+      "inverse": "приходДенег"
+    },
+    {
+      "name": "переченьУслуг",
+      "relatedTo": "i-i-s-novyjj-proekt-2-перечень-услуг",
+      "inverse": "приходДенег"
+    }
+  ],
+  "projections": [
+    {
+      "name": "ПриходДенегE",
+      "modelName": "i-i-s-novyjj-proekt-2-приход-денег",
+      "attrs": [
+        {
+          "name": "iD",
+          "caption": "ID",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "расходПриход",
+          "caption": "Расход/приход",
+          "hidden": false,
+          "index": 6
+        },
+        {
+          "name": "тип",
+          "caption": "Тип",
+          "hidden": false,
+          "index": 7
+        },
+        {
+          "name": "сумма",
+          "caption": "Сумма",
+          "hidden": false,
+          "index": 8
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "ФИО",
+          "lookupValueField": "фИО",
+          "relationName": "Финансисты",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фИО",
+              "caption": "ФИО Финансиста",
+              "hidden": true,
+              "index": 3
+            }
+          ],
+          "index": 2,
+          "type": "standard",
+          "caption": "Финансисты",
+          "name": "финансисты",
+          "relatedTo": "i-i-s-novyjj-proekt-2-финансисты",
+          "inverse": null
+        },
+        {
+          "lookupValue": "ФИО",
+          "lookupValueField": "фИО",
+          "relationName": "Клиенты",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фИО",
+              "caption": "ФИО Клиента",
+              "hidden": true,
+              "index": 5
+            }
+          ],
+          "index": 4,
+          "type": "standard",
+          "caption": "Клиенты",
+          "name": "клиенты",
+          "relatedTo": "i-i-s-novyjj-proekt-2-клиенты",
+          "inverse": null
+        }
+      ],
+      "hasMany": [
+        {
+          "projectionName": "ПереченьТоваровE",
+          "caption": "Перечень товаров",
+          "name": "переченьТоваров",
+          "relatedTo": "i-i-s-novyjj-proekt-2-перечень-товаров",
+          "inverse": null
+        },
+        {
+          "projectionName": "ПереченьУслугE",
+          "caption": "Перечень услуг",
+          "name": "переченьУслуг",
+          "relatedTo": "i-i-s-novyjj-proekt-2-перечень-услуг",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "ПриходДенегL",
+      "modelName": "i-i-s-novyjj-proekt-2-приход-денег",
+      "attrs": [
+        {
+          "name": "iD",
+          "caption": "ID",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "расходПриход",
+          "caption": "Расход приход",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "тип",
+          "caption": "Тип",
+          "hidden": false,
+          "index": 3
+        },
+        {
+          "name": "сумма",
+          "caption": "Сумма",
+          "hidden": false,
+          "index": 4
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Финансисты",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фИО",
+              "caption": "ФИО",
+              "hidden": false,
+              "index": 5
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "ФИО",
+          "name": "финансисты",
+          "relatedTo": "i-i-s-novyjj-proekt-2-финансисты",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Клиенты",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фИО",
+              "caption": "ФИО",
+              "hidden": false,
+              "index": 6
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "ФИО",
+          "name": "клиенты",
+          "relatedTo": "i-i-s-novyjj-proekt-2-клиенты",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

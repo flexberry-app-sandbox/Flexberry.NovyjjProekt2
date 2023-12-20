@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-novyjj-proekt-2-поставщики-e",
+  "editForm": "i-i-s-novyjj-proekt-2-поставщики-e",
+  "external": false,
+  "caption": "Поставщики",
+  "name": "IISNovyjj_proekt_2ПоставщикиL",
+  "className": "ПоставщикиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-novyjj-proekt-2-поставщики",
+      "modelProjection": "ПоставщикиL"
+    }
+  ]
+}

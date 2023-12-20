@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-novyjj-proekt-2-приход-денег-e",
+  "editForm": "i-i-s-novyjj-proekt-2-приход-денег-e",
+  "external": false,
+  "caption": "Приход денег",
+  "name": "IISNovyjj_proekt_2ПриходДенегL",
+  "className": "ПриходДенегL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-novyjj-proekt-2-приход-денег",
+      "modelProjection": "ПриходДенегL"
+    }
+  ]
+}

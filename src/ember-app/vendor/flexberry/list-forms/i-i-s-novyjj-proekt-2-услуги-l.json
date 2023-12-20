@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-novyjj-proekt-2-услуги-e",
+  "editForm": "i-i-s-novyjj-proekt-2-услуги-e",
+  "external": false,
+  "caption": "Услуги",
+  "name": "IISNovyjj_proekt_2УслугиL",
+  "className": "УслугиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-novyjj-proekt-2-услуги",
+      "modelProjection": "УслугиL"
+    }
+  ]
+}

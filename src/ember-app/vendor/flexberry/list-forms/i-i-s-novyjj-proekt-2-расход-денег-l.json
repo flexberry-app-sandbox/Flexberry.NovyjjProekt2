@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-novyjj-proekt-2-расход-денег-e",
+  "editForm": "i-i-s-novyjj-proekt-2-расход-денег-e",
+  "external": false,
+  "caption": "Расход денег",
+  "name": "IISNovyjj_proekt_2РасходДенегL",
+  "className": "РасходДенегL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-novyjj-proekt-2-расход-денег",
+      "modelProjection": "РасходДенегL"
+    }
+  ]
+}

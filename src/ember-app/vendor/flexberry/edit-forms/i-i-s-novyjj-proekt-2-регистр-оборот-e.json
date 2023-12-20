@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Регистр оборот",
+  "name": "IISNovyjj_proekt_2РегистрОборотE",
+  "className": "РегистрОборотE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-novyjj-proekt-2-регистр-оборот",
+      "modelProjection": "РегистрОборотE"
+    }
+  ]
+}
